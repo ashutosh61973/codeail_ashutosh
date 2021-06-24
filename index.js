@@ -7,14 +7,15 @@ app.use('/', require('./routes'));
 
 //setup view engine
 app.set('view engine','ejs');
-app.set('view','./views');
+
+app.set('views','./views');
 
 
 
 
 
 app.listen(port, function (errr) {
-    if (errr) {
+    if (errr) {   
         console.log(`Errror in running the server: ${errr}`);
     }
     console.log(`Server on running on port : ${port}`);
