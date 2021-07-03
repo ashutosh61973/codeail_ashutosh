@@ -19,3 +19,13 @@ module.exports.signIn = function(req,res)
     })
 
 }
+// get sign up data
+module.exports.create=function(req,res)
+{
+    //something
+}
+// sign in and create  
+module.exports.createSession=function(req,res)
+{
+    //something
+}
