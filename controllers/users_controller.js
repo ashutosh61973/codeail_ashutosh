@@ -101,8 +101,8 @@ module.exports.createSession=function(req,res)
 module.exports.logoutUser=function(req,res){
     // res.clearCookie(req.cookie.user_id);
     res.clearCookie("user_id");
-    console.log(req);
-    console.log('------------------------------------------------------');
-    console.log(res);
+    // console.log(req);
+    // console.log('------------------------------------------------------');
+    // console.log(res);
     return res.status(200).redirect('/users/sign-in');   
 }
