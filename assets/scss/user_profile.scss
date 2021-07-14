@@ -1,8 +1,9 @@
 body {
   background-color: rgba(153, 221, 168, 0);
   font-family: cursive;
-  background: url(https://meowlivia.s3.us-east-2.amazonaws.com/codepen/background/mountains.jpg) center center/cover; }
-
+  background: url(https://meowlivia.s3.us-east-2.amazonaws.com/codepen/background/mountains.jpg)
+    center center / cover;
+}
 .profile {
   width: 600px;
   margin: auto;
@@ -11,4 +12,5 @@ body {
   justify-content: center;
   height: 80%;
   font-style: italic;
-  color: white; }
+  color: white;
+}

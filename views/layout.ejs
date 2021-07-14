@@ -4,12 +4,23 @@
             <%= title %>
         </title>
         <link rel="stylesheet" href="/css/layout.css">
+        <!-- <link rel="stylesheet" href="/css/header.css"> -->
+        <!-- <link rel="stylesheet" href="/css/footer.css"> -->
+        <!-- <link rel="stylesheet" href="/css/signIn.css"> -->
+       
         <%- style %>
     </head>
     <body>
+        <% if(check!='true'){%>
         <%- include('_header'); -%>
-        <%- body%>
+      <%}%>
+        <main id ="layout-main"> 
+            <%- body%> 
+            <!-- <p><%=check%></p> -->
+        </main>
+        <% if(check!='true'){%>
         <%- include('_footer'); -%>
+        <%}%>
         <%- script %>
     </body>
 </html>
